@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --color-1: #ff3300;
+    --color-2: #ff7432;
+    --color-3: #ffa56d;
+    --color-4: #ffd78c;
+    --color-5: #ff0000;
+    --color-6: #ffffff;
+    --color-7: #000000;
+
+    --background-1: #1d2a35;
+
+    --font-family-company: "Outfit", sans-serif;
+}
+
+* {
+    font-family: var(--font-family-company);
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+body {
+    color: var(--color-6);
+    font-weight: 300;
+    background-color: var(--background-1);
+}
