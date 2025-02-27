@@ -19,6 +19,40 @@
         </svg>
     </div>
     <div class="container">
-        body
+        <div class="text-center">
+            <div class="services">
+                <div class="section-header">
+                    <h1 class="title">
+                        Plataforma Contable
+                    </h1>
+                    <h1 class="subtitle">
+                        Diseñada en un ecosistema tecnológico versátil para adaptarse a cualquier negocio
+                    </h1>
+                </div>
+                <div class="section-navegator">
+                    <ul>
+                        <li>
+                            <button type="button">Ventas</button>
+                        </li>
+                        <li>
+                            <button type="button">Compras</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="slider-container">
+                    <div class="section-body">
+                        <div class="container-img">
+                            <img [src]="slides[currentIndex].img" alt="Imagen con error">
+                        </div>
+                        <div class="container-text">
+                            <h1>{{ slides[currentIndex].title }}</h1>
+                            <p>{{ slides[currentIndex].text }}</p>
+                        </div>
+                    </div>
+                    <button (click)="prevSlide()" class="slider-btn left-btn">&#10094;</button>
+                    <button (click)="nextSlide()" class="slider-btn right-btn">&#10095;</button>
+                </div>
+            </div>
+        </div>
     </div>
 </section>

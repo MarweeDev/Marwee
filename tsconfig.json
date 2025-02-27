@@ -31,7 +31,7 @@
     "strictTemplates": true,
     "extendedDiagnostics": {
       "checks": {
-        "unusedStandaloneImports": "suppress"
+        //"unusedStandaloneImports": "suppress"
       }
     }
   }
